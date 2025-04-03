@@ -8,6 +8,8 @@
 
 ---
 
+![Vue Arise banner](/assets/vue-arise.png)
+
 ## ⚙️ Features
 
 - ✅ Vue 3 + Vite + TypeScript
