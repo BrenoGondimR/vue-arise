@@ -1,0 +1,19 @@
+{
+  "include": ["src/**/__tests__/*",
+    "src/env.d.ts"
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "composite": true,
+    "noEmit": false,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+
+    "lib": [],
+    "types": ["node", "jsdom"]
+  }
+}

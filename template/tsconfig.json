@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "types": [ "node", "vite/client" ],
+    "paths": {
+      "@/*": ["src/*"],
+      "pages/*": ["src/pages/*"],
+      "views/*": ["src/pages/*"],
+      "assets": ["src/assets"],
+      "utils": ["src/utils"],
+      "interfaces": ["src/interfaces"],
+      "components": ["src/components"],
+    },
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }, { "path": "./tsconfig.vitest.json" }]
+}
