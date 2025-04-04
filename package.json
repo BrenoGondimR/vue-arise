@@ -1,6 +1,6 @@
 {
   "name": "vue-arise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI to generate a Vue 3 + TS + SCSS + i18n project with clean architecture",
   "author": "Breno Gondim",
   "license": "MIT",
