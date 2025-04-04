@@ -8,7 +8,7 @@
 
 ---
 
-![Vue Arise banner](/assets/vue-arise.png)
+![Vue Arise banner](https://imgur.com/LfUjjTw.png)
 
 ## ⚙️ Features
 
