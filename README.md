@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/vue-arise.svg?style=flat-square)](https://www.npmjs.com/package/vue-arise)
 [![npm downloads](https://img.shields.io/npm/dm/vue-arise.svg?style=flat-square)](https://www.npmjs.com/package/vue-arise)
 [![license](https://img.shields.io/npm/l/vue-arise.svg?style=flat-square)](./LICENSE)
+[![Contribute](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md)
 
 **Vue Arise** is a CLI tool that scaffolds a professional Vue 3 + TypeScript + SCSS + i18n project with clean architecture and modern developer experience.
 
