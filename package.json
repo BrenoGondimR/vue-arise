@@ -5,11 +5,24 @@
   "author": "Breno Gondim",
   "license": "MIT",
   "type": "module",
+  "homepage": "https://github.com/BrenoGondimR/vue-arise#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrenoGondimR/vue-arise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrenoGondimR/vue-arise/issues"
+  },
   "keywords": [
     "vue",
     "cli",
     "typescript",
     "template",
+    "scss",
+    "architecture",
+    "front-end",
+    "clean-code",
+    "vue-arise",
     "vite"
   ],
   "bin": {
