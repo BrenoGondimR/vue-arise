@@ -5,6 +5,12 @@ import { defineConfig } from "vite";
 import stylelint from "vite-plugin-stylelint";
 import vueDevTools from "vite-plugin-vue-devtools";
 
+const env = loadEnv(
+    'mock',
+    process.cwd(),
+    ''
+);
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
